@@ -1,0 +1,196 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+navbar {
+  background-color: transparent;
+}
+.nav-link {
+  color: #fbeaeb;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: black;
+  background-color: #fbeaeb;
+  transition: 0.4s;
+}
+.navbar-brand {
+  font-size: 1.25rem;
+  color: #fbeaeb;
+  font-weight: 800;
+  cursor: pointer;
+  text-decoration: none;
+}
+.main {
+  background: url(./images/back.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+}
+.main h3 {
+  color: #fbeaeb;
+  font-size: 4.4rem;
+  font-weight: 500;
+}
+.main h4 {
+  border-bottom: 3px solid rgb(233, 20, 109);
+  width: 60%;
+}
+.text_color {
+  color: #fbeaeb;
+}
+.portfolio-background {
+  filter: brightness(0.6) contrast(0.8);
+}
+.img-fluid {
+  border-radius: 8px;
+}
+.about img {
+  -webkit-box-shadow: 10px 10px 38px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 38px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 38px -4px rgba(0, 0, 0, 0.75);
+}
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.btn1 {
+  height: 40px;
+  width: 140px;
+  border: none;
+  outline: none;
+  background-color: black;
+  border-radius: 5px;
+  color: #fbeaeb;
+}
+.btn1:hover {
+  color: fbeaeb;
+  background-color: rgba(29, 4, 44, 0.836);
+  border: 1px solid black;
+  transition: 0.3s;
+}
+
+.navbar {
+  background-color: transparent; /* Initial background is transparent */
+}
+
+.navbar.fixed-top.scrolled {
+  transition: 0.8s;
+  background-color: rgba(
+    29,
+    4,
+    44,
+    0.836
+  ); /* Background color changes to black on scroll */
+}
+
+/* Text color for the links in the navbar */
+.nav-link {
+  color: white; /* Make text white */
+}
+
+.card {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  -webkit-box-shadow: 7px 8px 23px -13px rgba(58, 12, 87, 1);
+  -moz-box-shadow: 7px 8px 23px -13px rgba(58, 12, 87, 1);
+  box-shadow: 7px 8px 23px -13px rgba(58, 12, 87, 1);
+}
+
+.card p {
+  color: grey;
+}
+.circle {
+  height: 70px;
+  width: 70px;
+  background-color: lightgrey;
+  color: black;
+  padding: 12px;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.card:hover .circle {
+  background-color: black;
+  color: white;
+  transition: 0.6s;
+}
+
+.item {
+  position: relative;
+  border-radius: 5px;
+}
+.item h4 {
+  text-align: center;
+  color: white;
+  background-color: rgba(29, 4, 44, 0.836);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.item:hover {
+  -webkit-box-shadow: 0px 0px 37px -4px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 37px -4px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 37px -4px rgba(0, 0, 0, 1);
+  transition: 0.5s;
+}
+.item span {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  font-size: 40px;
+  color: black;
+  cursor: pointer;
+  opacity: 0;
+}
+.item:hover span {
+  opacity: 1;
+  transition: 0.5s;
+}
+.item::before {
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: rgba(238, 235, 230, 0.644);
+  position: absolute;
+}
+.item:hover:before {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.circle:hover {
+  background-color: black;
+  color: lightgray;
+  transition: 0.5s;
+}
+.contact .btn3 {
+  height: 40px;
+  width: 140px;
+  border: none;
+  outline: none;
+  background-color: black;
+  border-radius: 5px;
+  color: #fbeaeb;
+}
+.contact .btn3:hover {
+  color: fbeaeb;
+  background-color: rgba(29, 4, 44, 0.836);
+  border: 1px solid black;
+  transition: 0.3s;
+}
+footer {
+  height: 300px;
+  color: lightgray;
+  background-color: rgba(29, 4, 44, 0.836);
+}
